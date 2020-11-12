@@ -1,31 +1,44 @@
 "use strict";
 
-let num = 50;
+function showFirstMessage(){
+	console.log('Hello world!');
+}
+showFirstMessage();
 
-switch (num) {
-	case 49:
-		console.log('Wrong');
-		break;
-	case 100:
-		console.log('Wrong');
-		break;
-	case 50:
-		console.log('Right!');
-		break;
-	default:
-		console.log('Not now');
-		break;
+function calc(a, b){
+	return (a+b);
 }
 
-do {
-	console.log(num);
-	num++;
-}
-while (num < 55);
 
-for (let i = 1; i < 8; i++){
-	if (i == 6) {
-		break;
-	}
-	console.log(i);
-}
+
+
+
+// let num = 50;
+
+// switch (num) {
+// 	case 49:
+// 		console.log('Wrong');
+// 		break;
+// 	case 100:
+// 		console.log('Wrong');
+// 		break;
+// 	case 50:
+// 		console.log('Right!');
+// 		break;
+// 	default:
+// 		console.log('Not now');
+// 		break;
+// }
+
+// do {
+// 	console.log(num);
+// 	num++;
+// }
+// while (num < 55);
+
+// for (let i = 1; i < 8; i++){
+// 	if (i == 6) {
+// 		break;
+// 	}
+// 	console.log(i);
+// }
