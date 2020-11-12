@@ -1,6 +1,6 @@
 "use strict";
 
-const num = 50;
+let num = 50;
 
 switch (num) {
 	case 49:
@@ -15,4 +15,17 @@ switch (num) {
 	default:
 		console.log('Not now');
 		break;
+}
+
+do {
+	console.log(num);
+	num++;
+}
+while (num < 55);
+
+for (let i = 1; i < 8; i++){
+	if (i == 6) {
+		break;
+	}
+	console.log(i);
 }
