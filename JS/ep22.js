@@ -47,4 +47,4 @@ newNumbers.a = 10;
 newNumbers.c.x = 10;
 
 console.log(newNumbers);
-console.log(numbers)
+console.log(numbers);
