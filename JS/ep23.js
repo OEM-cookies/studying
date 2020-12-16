@@ -15,7 +15,6 @@ const soldier = {
 };
 
 
-
 const john = {
     health: 100
 };
